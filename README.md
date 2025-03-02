@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h5 align="center">I am an aspiring software engineer and full-stack developer with a strong foundation in C++, JavaScript, and Python. Passionate about building scalable and efficient applications, I have experience working with React, SpringBoot and various databases like PostgreSQL and MongoDB. Currently, I am developing Vrite, a Google Docs clone, leveraging React for the frontend and Laravel for the backend. My goal is to create intuitive, high-performance web applications while continuously expanding my expertise in software engineering.</h5>
+<h4 align="center">I am an aspiring software engineer and full-stack developer with a strong foundation in C++, JavaScript, and Python. Passionate about building scalable and efficient applications, I have experience working with React, SpringBoot and various databases like PostgreSQL and MongoDB. Currently, I am developing Vrite, a Google Docs clone, leveraging React for the frontend and Laravel for the backend. My goal is to create intuitive, high-performance web applications while continuously expanding my expertise in software engineering.</h4>
 
 ###
 
