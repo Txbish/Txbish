@@ -1,6 +1,10 @@
 <br clear="both">
 
-<h4 align="center">I am an aspiring software engineer and full-stack developer with a strong foundation in C++, JavaScript, and Python. Passionate about building scalable and efficient applications, I have experience working with React, SpringBoot and various databases like PostgreSQL and MongoDB. Currently, I am developing Vrite, a Google Docs clone, leveraging React for the frontend and Laravel for the backend. My goal is to create intuitive, high-performance web applications while continuously expanding my expertise in software engineering.</h4>
+<h4 align="center">
+  I'm Tabish Noman Khan, a driven software engineering student and full-stack developer with a strong foundation in C++, JavaScript, and Python. I enjoy building scalable, maintainable applications and have hands-on experience with modern frameworks like React, Next.js, Spring Boot, and Express. <br><br>
+  I'm passionate about creating intuitive user experiences and writing clean, efficient code—whether it's for frontend interfaces or backend APIs. With a keen interest in web technologies, distributed systems, and AI, I'm continuously exploring new tools and best practices to grow as a developer and engineer.
+</h4>
+
 
 ###
 
