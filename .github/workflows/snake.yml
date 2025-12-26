@@ -25,7 +25,7 @@ jobs:
 
       # Contribution terrain
       - name: Generate contribution terrain
-        uses: eshahhh/contribution-terrain@v1
+        uses: eshahhh/contribution-terrain
         with:
           username: ${{ github.repository_owner }}
           style: terrain
