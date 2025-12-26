@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Generate Contribution Terrain
-        uses: eshahhh/contribution-terrain@v1
+        uses: eshahhh/contribution-terrain@v1.0.0
         with:
           username: ${{ github.repository_owner }}
           style: terrain
