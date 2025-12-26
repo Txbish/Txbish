@@ -16,7 +16,7 @@ jobs:
         uses: eshahhh/contribution-terrain@v1.0.0
         with:
           username: ${{ github.repository_owner }}
-          style: terrain
+          style: graph
           TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish output to output branch
