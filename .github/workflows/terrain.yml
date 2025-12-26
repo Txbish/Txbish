@@ -17,13 +17,12 @@ jobs:
         with:
           username: ${{ github.repository_owner }}
           style: terrain
-          output_dir: dist
           TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish output to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
-          build_dir: dist
+          build_dir: .
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
