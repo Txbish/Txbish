@@ -1,2 +1,7 @@
-- name: Contribution Terrain
-  uses: eshahhh/contribution-terrain@v1.0.0
+- name: Generate Contribution Terrain
+  uses: eshahhh/contribution-terrain@v1
+  with:
+    username: ${{ github.repository_owner }} # GitHub username to read the contribution graph from
+    style: terrain # or graph
+    output_dir: output_directory # optional, defaults to the root
+    TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
