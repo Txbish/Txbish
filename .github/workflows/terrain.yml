@@ -1,7 +1,29 @@
-- name: Generate Contribution Terrain
-  uses: eshahhh/contribution-terrain@v1
-  with:
-    username: ${{ github.repository_owner }} # GitHub username to read the contribution graph from
-    style: terrain # or graph
-    output_dir: output_directory # optional, defaults to the root
-    TOKEN_GITHUB: ${{ secrets.TOKEN_GITHUB }}
+name: Generate Contribution Terrain
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Generate Contribution Terrain
+        uses: eshahhh/contribution-terrain@v1
+        with:
+          username: ${{ github.repository_owner }}
+          style: terrain
+          output_dir: dist
+          TOKEN_GITHUB: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish output to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
