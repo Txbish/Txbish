@@ -31,7 +31,7 @@
 <!-- CONTRIBUTION TERRAIN -->
 <div align="center">
   <h3>Contribution Terrain</h3>
-  <img src="https://raw.githubusercontent.com/Txbish/Txbish/output/graph-Txbish.svg" alt="Contribution Terrain" width="600"/>
+  <img src="https://raw.githubusercontent.com/Txbish/Txbish/output/graph-Txbish.svg" alt="Contribution Terrain" width="800"/>
 </div>
 
 ---
