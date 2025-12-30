@@ -13,7 +13,7 @@
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&color=0077B5&style=for-the-badge" alt="LinkedIn" height="35"/>
   </a>
   <a href="https://github.com/Txbish">
-    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&color=181717&style=for-the-badge" alt="GitHub" height="35"/>923078607264
+    <img src="https://img.shields.io/static/v1?message=GitHub&logo=github&color=181717&style=for-the-badge" alt="GitHub" height="35"/>
   </a>
 </div>
 
